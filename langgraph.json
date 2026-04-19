@@ -1,7 +1,8 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "docs_agent": "./src/agent/docs_graph.py:docs_agent"
+    "customer_service": "./src/agent/customer_service.py:customer_service_agent",
+    "user_analyst": "./src/agent/user_analyst.py:user_analyst"
   },
   "env": ".env",
   "image_distro": "wolfi",
